@@ -36,7 +36,7 @@ def run(img_path):
         #show result
         cv2.imshow("Original", img)
         cv2.imshow("Mask", mask)
-        if cv2.waitKey(0) & 0xFF == ord('q'):
+        if cv2.waitKey(1) & 0xFF == ord('q'):
             break
 
 parser = argparse.ArgumentParser(description='List image path')
